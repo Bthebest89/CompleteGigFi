@@ -1,0 +1,2 @@
+import{au as a,z as e,B as t}from"./index-BdgVNXf3.js";const n=(()=>e.union([e.date().transform((a=>t.from(Math.floor(a.getTime()/1e3)))),e.number().transform((a=>t.from(a)))]))(),o=(()=>n.default(new Date(0)))(),r=(()=>n.default(new Date(Date.now()+31536e7)))();function f(e,t){if(!e)throw new a(t);return e}export{r as E,n as R,o as S,f as a};
+//# sourceMappingURL=assertEnabled-d1700f0b.browser.esm-C0-eUoBY.js.map

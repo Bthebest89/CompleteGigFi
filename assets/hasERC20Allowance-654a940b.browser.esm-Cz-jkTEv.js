@@ -1,0 +1,3 @@
+const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["assets/index-BdgVNXf3.js","assets/web3-vendor-D-smDdvq.js","assets/react-vendor-oRnAdrvc.js","assets/ui-vendor-DvZrbspg.js","assets/index-afkGx5Ck.css"])))=>i.map(i=>d[i]);
+import{_ as e}from"./web3-vendor-D-smDdvq.js";import{H as a}from"./index-BdgVNXf3.js";async function t(t,r,n){const s=t.getProvider(),d=(await e((async()=>{const{default:e}=await import("./index-BdgVNXf3.js").then((e=>e.dV));return{default:e}}),__vite__mapDeps([0,1,2,3,4]))).default,o=new a(s,r,d,{},t.storage),i=await t.getSignerAddress(),w=t.address;return(await o.read("allowance",[i,w])).gte(n)}export{t as h};
+//# sourceMappingURL=hasERC20Allowance-654a940b.browser.esm-Cz-jkTEv.js.map

@@ -1,0 +1,2 @@
+import{O as r,c as a,T as t}from"./index-BdgVNXf3.js";class e{featureName=r.name;constructor(r){this.contractWrapper=r}async getRecipient(){return await this.contractWrapper.read("primarySaleRecipient",[])}setRecipient=a((async r=>t.fromContractWrapper({contractWrapper:this.contractWrapper,method:"setPrimarySaleRecipient",args:[r]})))}export{e as C};
+//# sourceMappingURL=contract-sales-918c7cb8.browser.esm-DBh2PU1o.js.map
